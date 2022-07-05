@@ -1,0 +1,56 @@
+
+/*цвет основного текста #212121 */ 
+/*вторичный цвет текста #757575* rgba(255, 255, 255, 0.6);*/
+/*белый текста #FFFFF**/
+/*акцент*2196F3 */
+ 
+
+
+/*  стили HTML*/
+:root{
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--primary-bg-color:#FFFFFF;}
+
+body{ background-color: #FFFFFF;
+    color:var(--primary-text-color);}
+
+.logo { color:var(--accent-color) ;}
+
+.logo:hover { olor:var(--accent-color) ;}
+
+
+.list {  list-style:none;}
+
+/*site-nav*/
+.site-nav .link{color:var(--accent-color);}
+
+.site-nav .link:hover,
+.site-nav .link-focus {
+color:var(--title-text-color);}
+
+/*section*/
+
+.section-title{color:var(--title-text-color);}
+
+/*чем мы занимаемся*/
+
+.hero-title {}
+
+/*Кнопка*/
+.button{ 
+    color: var(--accent-color);
+}
+.button .primary { 
+    color: var(--accent-color);
+    color: var(--primary-text-color);
+}
+.button .secondary { color:var(--accent-color) ;
+    }
+    
+/*iportfolio*/
+
+.body { background-color: #FFFFFF;
+    color:var(--primary-text-color);}
+
